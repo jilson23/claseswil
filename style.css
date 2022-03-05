@@ -1,0 +1,18 @@
+div{
+    border:solid 1px black
+}
+.contenedor{
+    height: 400px;
+}
+.izquierda{
+    height: 100px;
+    width: 100px;
+    border:solid 1px red
+}
+.derecha{
+    height: 100px;
+    width: 100px;
+    border:solid 1px blue;
+    display: inline;
+    /* background: blue */
+}
