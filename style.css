@@ -2,57 +2,36 @@ div{
     border:solid 1px black
 }
 .contenedor{
-    /* height: 400px; */
+    clear: both;
 }
 
 .contenedor__hijo{
     padding: 10px;
     display: block;
-    box-sizing: border-box;
-    clear: both;
-    box-sizing: border-box;
-
-}
-
-.contenedor__hijo:before {
-    display: table;
-    content: " ";
-    box-sizing: border-box;
-}
-.contenedor__hijo:after {
-    clear: both;
-    box-sizing: border-box;
+    float: left;
+    margin: 0 auto;
 }
 
 .izquierda{
     height: 100px;
-    width: 30%;
+    width: 100px;
     border:solid 1px red;
     display: block;
     float: left;
-    position: relative;
-    box-sizing: border-box;
-
 }
 .derecha{
     height: 100px;
-    width: 30%;
+    width: 100px;
     border:solid 1px blue;
     display: block;
     float: left;
-    position: relative;
-    box-sizing: border-box;
-
 }
 
 .random{
     height: 100px;
-    width: 30%;
+    width: 100px;
     border:solid 1px green;
     float: left;
-    position: relative;
-    box-sizing: border-box;
-
 }
 
 
